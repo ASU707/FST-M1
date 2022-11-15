@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:enterprise.soap.sforce.com">
+   <soapenv:Header>
+        <urn:SessionHeader>
+         <urn:sessionId>${Session Properties#SessionID}</urn:sessionId>
+      </urn:SessionHeader>
+   </soapenv:Header>
+   <soapenv:Body>
+      <urn:delete>
+         <!--Zero or more repetitions:-->
+         <urn:ids>0012w00000GVqT1AAL</urn:ids>
+      </urn:delete>
+   </soapenv:Body>
+</soapenv:Envelope>

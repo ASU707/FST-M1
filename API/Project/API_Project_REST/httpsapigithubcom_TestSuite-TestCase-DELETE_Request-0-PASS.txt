@@ -1,0 +1,56 @@
+Status: PASS
+Time Taken: 343
+Size: 0
+Timestamp: Fri Jul 24 18:12:34 IST 2020
+TestStep: DELETE Request
+
+----------------- Messages ------------------------------
+
+----------------- Properties ------------------------------
+HTTP Version: HTTP/1.1
+Endpoint: https://api.github.com
+Username: SusmitaSDET
+Encoding: UTF-8
+Method: DELETE
+StatusCode: 204
+URL: https://api.github.com/user/keys/44953933
+Password: **************
+
+---------------- Request ---------------------------
+Authorization: [Basic U3VzbWl0YVNERVQ6U3VzbWl0YVNERVRfMjAyMA==]
+Connection: [Keep-Alive]
+User-Agent: [Apache-HttpClient/4.5.2 (Java/12.0.1)]
+Host: [api.github.com]
+Accept-Encoding: [gzip,deflate]
+Content-Length: [0]
+Content-Type: [application/json;charset=UTF-8]
+
+DELETE https://api.github.com/user/keys/44953933 HTTP/1.1
+Accept-Encoding: gzip,deflate
+Content-Type: application/json;charset=UTF-8
+Authorization: Basic U3VzbWl0YVNERVQ6U3VzbWl0YVNERVRfMjAyMA==
+Content-Length: 0
+Host: api.github.com
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.2 (Java/12.0.1)
+
+
+---------------- Response --------------------------
+Status: [204 No Content]
+Server: [GitHub.com]
+Access-Control-Allow-Origin: [*]
+X-Content-Type-Options: [nosniff]
+X-RateLimit-Reset: [1595596712]
+Date: [Fri, 24 Jul 2020 12:42:38 GMT]
+X-Frame-Options: [deny]
+Referrer-Policy: [origin-when-cross-origin, strict-origin-when-cross-origin]
+Access-Control-Expose-Headers: [ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset]
+Strict-Transport-Security: [max-age=31536000; includeSubdomains; preload]
+X-RateLimit-Remaining: [4995]
+X-GitHub-Media-Type: [github.v3; format=json]
+Content-Security-Policy: [default-src 'none']
+Vary: [Accept-Encoding, Accept, X-Requested-With, Accept-Encoding]
+X-RateLimit-Limit: [5000]
+#status#: [HTTP/1.1 204 No Content]
+X-XSS-Protection: [1; mode=block]
+X-GitHub-Request-Id: [C65A:5361:1E3FD8:292803:5F1AD73D]
